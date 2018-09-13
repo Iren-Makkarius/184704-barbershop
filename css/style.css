@@ -198,7 +198,7 @@ a {
 }
 
 
-/*сетки */
+/*------------ сетки -------------- */
 
 /*главная страница index */
 .main-header {
@@ -277,8 +277,8 @@ a {
   width: 300px;
 }
 .main-footer {
-   margin-top: 65px;
-   padding: 60px 0;
+  margin-top: 65px;
+  padding: 60px 0;
 }
 .main-footer .container {
   display: flex;
@@ -299,7 +299,11 @@ a {
 
 /* внутренняя страница catalog*/
 .inner-page {
-  background-color: grey;
+  color: #000000;
+  background-color: #f9f6f3;
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
 }
 .inner-page .main-header {
   margin-bottom: 50px;
@@ -364,4 +368,12 @@ a {
 }
 .inner-page .main-footer {
   margin-top: 45px;
+}
+
+/* карточка товара */
+.product-photos {
+  width: 460px;
+}
+.product-info {
+  width: 390px;
 }
